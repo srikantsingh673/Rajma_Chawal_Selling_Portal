@@ -1,0 +1,8 @@
+ const sheets = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1jMACuYpx8SV53xVDMJ2NYmBa1qsFKJrv0LuvMjQg3nU/edit#gid=0s");
+ //if you have changed your sheet name then replace the below Sheet1 with your sheet name
+const sheet = sheets.getSheetByName("Sheet1");
+function doPost(e){
+  let data = e.parameter;
+  sheet.appendRow([data.Date, data.Name,data.Mobile, data.Address, data.Food_Items, data.Plate_Size, data.Count, data.Note]);
+  return ContentService.createTextOutput("Your message was successfully sent to the Googlesheet database!");
+}

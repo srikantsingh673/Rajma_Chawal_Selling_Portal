@@ -1,38 +1,233 @@
-.App {
+body {
+  background-image: url("./Assets/bg.jpg");
+}
+
+.nav {
+  background-color:#76300a;
+}
+
+.Main {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.Support {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  background-color:whitesmoke;
+  color: #ab4711;
+  font-weight: 700;
+  font-family: 'Exo', sans-serif;
+  height:60px;
+  width: 90%;
+  font-size: x-large;
+  box-shadow: 1px 1px 5px black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:hover {background-color:#ab4711}
+
+.s-button {
+  background-color:whitesmoke;
+  color: #ab4711;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.s-button:hover {background-color:#ab4711}
+
+.card
+{
+  background-color: whitesmoke;
+  box-shadow: -3px 3px 3px;
+  padding: 3%;
+}
+
+.title-small
+{
+  font-family:monospace;
+  font-size: large;
+  padding: 2%;
+}
+
+.title-para
+{
+  font-family:serif;
+  font-size: small;
+  text-align: left;
+  font-family: monospace;
+}
+
+.card {
+  width: '19rem';
+  margin-top: '4%';
+}
+
+.form-face
+{
+  margin: 10%;
+  font-family: 'Roboto', sans-serif;
+  padding: 9%;
+  box-shadow: 0 0 0 0px inset,0 0 3px;
+  display: inline-block;  
+  text-align: center; 
+  color: #76300a;
+}
+
+.label
+{
+  font-family: 'Exo', sans-serif;
+  margin-bottom: 30px;
+  font-size:medium;
+  width: 50;
+}
+
+.label-select
+{
+  font-family: 'Exo', sans-serif;
+  text-align:left;
+  border-radius: 5px;
+}
+
+.label-note
+{
+  font-family: 'Exo', sans-serif;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.label-option
+{
+  width: 50px;
+}
+
+.sch-button
+{
+  padding-left: 28%;
+  padding-right: 28%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+  background-color: #ab4711;
   color: white;
+  font-family: 'Exo', sans-serif;  
 }
 
-.App-link {
-  color: #61dafb;
+.sch-button:hover {background-color:#223a66}
+.form-starter
+{
+  position: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer__copyright {
+  margin-bottom: 1rem;
+  color: var(--color-bg);
+}
+
+.result
+{
+  text-align: center;
+  margin: 10%;
+  margin-top: 20%;  
+}
+
+.title-result
+{
+  font-family: 'Exo', sans-serif;
+}
+
+.footer__copyright {
+  color: var(--color-bg);
+  text-align: center;
+  border-top: 1px solid;
+  padding-top: 50px;
+  margin: 1%;
+  margin-bottom: 1rem;
+}
+
+.Support
+{
+  font-family: "Montserrat",sans-serif;
+  padding: 6%;
+  text-align: center;
+  
+}
+
+.Support-cont
+{
+  font-family: "Montserrat",sans-serif;
+  padding: 6%;
+  text-align: center;
+
+}
+
+.Support-mail
+{
+  font-family: "Montserrat",sans-serif;
+  padding: 6%;
+  padding-bottom: 20%;
+  border-bottom: 1px solid black;
+}
+
+.add
+{
+  box-shadow: 0 0 0 0px inset,0 0 3px;
+  padding: 8%;
+  text-align: center;
+  
+}
+
+.title-add
+{
+  font-family:monospace;
+  color: #57626c;
+  font-size: medium;
+  text-align: center;  
+  padding-top: 5%;
+
+}
+
+.call
+{
+  color: black;
+  font-family: 'Exo', sans-serif;
+}
+
+.label-date
+{
+  font-family: 'Exo', sans-serif;
+}
+
+.map
+{
+  position: inherit;
+}
+
+.support-title 
+{
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+.contact-box {
+  box-shadow: 0 0 3px;
+  padding: 4%;
+  margin: 10px;
+}
+
+.email {
+  font-size:small;
+  
+}
+
+.phone {
+  font-size: small;
 }
