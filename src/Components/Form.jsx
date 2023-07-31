@@ -99,12 +99,48 @@ const Form = () => {
                             </div>
                             <div className="label-select">
                                 <label>No. of Plate</label><br />
-                                <input className='label'
-                                    placeholder="Count"
-                                    name="Count"
-                                    type="number"
-                                    required
-                                />
+                                <select name="Count" required>
+                                    <option className='label-option'
+                                        value="1"> 1 </option>
+                                    <option className='label-option'
+                                        value="2"> 2 </option>
+                                        <option className='label-option'
+                                        value="3"> 3 </option>
+                                    <option className='label-option'
+                                        value="4"> 4 </option>
+                                        <option className='label-option'
+                                        value="5"> 5 </option>
+                                    <option className='label-option'
+                                        value="6"> 6 </option>
+                                        <option className='label-option'
+                                        value="7"> 7 </option>
+                                    <option className='label-option'
+                                        value="8"> 8 </option>
+                                        <option className='label-option'
+                                        value="9"> 9 </option>
+                                        <option className='label-option'
+                                        value="10"> 10 </option>
+                                    <option className='label-option'
+                                        value="11"> 11 </option>
+                                    <option className='label-option'
+                                        value="12"> 12 </option>
+                                        <option className='label-option'
+                                        value="13"> 13 </option>
+                                    <option className='label-option'
+                                        value="14"> 14 </option>
+                                        <option className='label-option'
+                                        value="15"> 15 </option>
+                                    <option className='label-option'
+                                        value="16"> 16 </option>
+                                        <option className='label-option'
+                                        value="17"> 17 </option>
+                                    <option className='label-option'
+                                        value="18"> 18 </option>
+                                        <option className='label-option'
+                                        value="19"> 19 </option>
+                                        <option className='label-option'
+                                        value="20"> 20 </option>
+                                </select>
                             </div>
                         </div>
                         <br />
